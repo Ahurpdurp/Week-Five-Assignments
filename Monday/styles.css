@@ -1,0 +1,22 @@
+.ULThing {
+    display:flex;
+    flex-wrap:wrap;
+}
+
+
+.ULThing li{
+    list-style: none;
+    display:flex;
+    flex-direction: column;
+    padding:2em;
+}
+.ULThing img{
+    width:90px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.movie-detail{
+    display:flex;
+    justify-content: center;
+}
