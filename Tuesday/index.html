@@ -1,0 +1,19 @@
+<html>
+    <head>
+        <link rel = "stylesheet" href = "styles.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    </head>
+    <body onload= "loadOrders()" class = 'container'>
+        <a href = 'addOrder.html'>add a new order</a><br>
+        Search For Your Order<br>
+        <input id = 'searchBar'>
+        <button id = 'searchButton'>Search</button><br>
+        <button id = 'allItems'>Display All Orders</button><br>
+        Delete below by filling out an email<br>
+        <input id = 'deleteBar'>
+        <button id = 'deleteButton'>Delete Order</button>
+        <h1>Coffee Orders: </h1>
+        <UL id = 'coffeeOrdersUL'></UL>
+    </body>
+    <script src = 'app.js'></script>
+</html>
