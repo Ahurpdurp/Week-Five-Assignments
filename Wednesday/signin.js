@@ -15,7 +15,6 @@ createAccount.addEventListener('click',function(){
         password: password
         })
         
-        var user_id = username
          
 
         alert('Account has been added! Enter credentials to login')

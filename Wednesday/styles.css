@@ -1,25 +1,84 @@
-UL {
+.body {
+    background-color:rgb(157, 202, 228);
+}
+
+h1 {
+    padding-top:3em;
+    text-align: center;
+    color:rgb(253, 253, 253);
+}
+.UL {
     list-style-type: none;
 }
+
+.UL li{
+    display:flex;
+    flex-direction: column;
+}
+
+.UL div{
+    padding-top:1em;
+}
+
 
 .nav-bar{
     display:flex;
     justify-content: center;
 }
 
+.nav-bar span {
+    padding-left:1em;
+}
+
 .items{
     display:flex;
     justify-content: center;
-    width:40%;
-    margin-left:auto;
-    margin-right:auto;
 }
 
-.delete-button{
-    justify-content: right;
-    margin-left:auto;
-}
 
 .items li{
     display:flex;
+}
+
+
+.individual-items{
+    display:flex;
+    margin-left:2em;
+}
+
+.individual-items span{
+    margin-left:auto;
+    margin-right:2em;
+}
+
+
+.HI {
+    display:flex;
+}
+
+
+.HI span{
+    padding-left:3em;
+    margin-left:auto;
+}
+
+.delete-item{
+    background-color:rgba(255, 255, 255, 0);
+    border: none;
+    cursor:pointer;
+    color:rgb(235, 235, 235);
+}
+
+.delete-button {
+    border-radius: 25px;
+    background-color:white;
+    cursor:pointer;
+}
+
+.add-item-button{
+    background-color:rgba(255, 255, 255, 0);
+    border:none;
+    cursor:pointer;
+    font-size:15pt;
+    padding-right:1em;
 }

@@ -1,16 +1,19 @@
 
 <html lang="en" dir="ltr">
         <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel = "stylesheet" href = 'styles.css'>
         <meta charset="utf-8">
           <title></title>
         </head>
-        <body>
+        <body class = 'body' style = "font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif">
             <h1>Sign In: </h1>
-            <input type = 'text' id = 'usernameField' placeholder="Enter Username" />
-            <input type = 'text' id = 'passwordField' placeholder="Enter Password" />
-            <button id="login">Log In</button>
-            <button id="createAccount">Create Account</button>
+            <div class = 'nav-bar'>
+            <span><input type = 'text' id = 'usernameField' placeholder="Enter Username" /></span>
+            <span><input type = 'password' id = 'passwordField' placeholder="Enter Password" /></span>
+            <span><button id="login">Log In</button></span>
+            <span><button id="createAccount">Create Account</button></span>
+            </div>
             <p id = "wrongPassword"></p>
         </body>
       
